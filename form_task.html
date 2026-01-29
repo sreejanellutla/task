@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms_Task1</title>
+</head>
+<body>
+    <center>
+        <img src="../images/TSRTC.jpeg" alt="" width="800">
+    </center>
+    <center>
+            <fieldset style="width: 800px; border-radius: 10px; border: 2px solid black;" >
+                <legend style="width: 120px; border-radius: 5px; background-color: blue; color: white; padding: 5px;">Applicant Details</legend>
+                <form action="../result.html" method="get">
+                    <table cellpadding="2" cellspacing="10" width="800">
+                        <tr>
+                            <td colspan="2">
+                                <label for="">Name:</label>
+                                <input type="text">
+                            </td>
+                            <td colspan="2">
+                                <label for="">Father's Name:</label>
+                                <input type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <label for="date of birth">DOB:</label>
+                                <input type="Date" id="date of birth">
+                            </td>
+                            <td colspan="2">
+                                <label for="">Gender:</label>
+                                <label for="">Female</label>
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="">Male</label>
+                                <input type="radio" id="male" name="gender" value="male">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <label for="">Age:</label>
+                                <input type="text">
+                            </td>
+                            <td colspan="2">
+                                <label for="">Aadhar No:</label>
+                                <input type="text" id="aadhar" maxlength="12" minlength="12">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <label for="">Whatsapp No:</label>
+                                <input type="tel">
+                            </td>
+                            <td colspan="2">
+                                <label for="">Email Id:</label>
+                                <input type="email">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <label for="">Photo</label>
+                                <input type="file">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </fieldset>
+    </center>
+    <br>
+    <center>
+        <fieldset style="width: 800px; border-radius: 10px; border: 2px solid black;">
+            <legend style="width: 200px; border-radius: 5px; background-color: blue; color: white; padding: 5px;">Residential Address Details</legend>
+            <form action="">
+                <table cellpadding="2" cellspacing="10" width="800">
+                    <tr>
+                        <td >
+                            <label for="address">Applicant's Address</label>
+                        </td>
+                        <td>
+                            <textarea name="address" id="address" rows="2" cols="20"></textarea>
+                        </td>
+                        <td colspan="3">
+                            <label for="">District</label>
+                            <select name="" id="">
+                                <option value="" disabled selected>---select---</option>
+                                <option value="">Hyderabad</option>
+                                <option value="">Warangal</option>
+                                <option value="">Karimnagar</option>
+                                <option value="">Siddipet</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> 
+                            <label for="">Mandal</label>
+                            <select name="" id="">
+                                <option value="" disabled selected>---select---</option>
+                                <option value="">Khila Warangal</option>
+                                <option value="">Sri nagar</option>
+                                <option value="">Doolpet</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label for="">Village</label>
+                            <select name="" id="">
+                                <option value="" disabled selected>---select---</option>
+                                <option value="">Gadepalli</option>
+                                <option value="">Siddapur</option>
+                                <option value="">Geesukonda</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label for="">Pincode</label>
+                            <input type="text">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+    </center>
+    <br>
+    <center>
+        <fieldset style="width: 800px; border-radius: 10px; border: 2px solid black;">
+            <legend style="width: 120px; border-radius: 5px; background-color: blue; color: white; padding: 5px;">Pass Type Details</legend>
+            <table cellpadding="2" cellspacing="10" width="800">
+                <tr>
+                    <td colspan="2">
+                        <label for="">City</label>
+                        <select name="" id="">
+                            <option value="" disabled selected>---select---</option>
+                                <option value="">Hyderabad</option>
+                                <option value="">Warangal</option>
+                                <option value="">Karimnagar</option>
+                                <option value="">Siddipet</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="">Pass Type</label>
+                        <select name="" id="">
+                            <option value="" disabled selected>---select---</option>
+                            <option value="">General</option>
+                            <option value="">Metro pass</option>
+                            <option value="">E-pass</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="">From Place District</label>
+                        <select name="" id="">
+                            <option value="" disabled selected>---select---</option>
+                            <option value="">Hyderabad</option>
+                            <option value="">Mehdipatanam</option>
+                            <option value="">Balnagar</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="">To Place District</label>
+                        <select name="" id="">
+                            <option value="" disabled selected>---select---</option>
+                            <option value="">Koti</option>
+                            <option value="">Gandhi Nagar</option>
+                            <option value="">Assembly</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="">From Place</label>
+                        <select name="" id="">
+                            <option value="" disabled selected>---select---</option>
+                            <option value="">Hyderabad</option>
+                            <option value="">Mehdipatanam</option>
+                            <option value="">Balnagar</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="">To Place</label>
+                        <select name="" id="">
+                            <option value="" disabled selected>---select---</option>
+                            <option value="">Koti</option>
+                            <option value="">Gandhi Nagar</option>
+                            <option value="">Assembly</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="">Route</label>
+                        <select name="" id="">
+                            <option value="" disabled selected>---select---</option>
+                            <option value="">Koti</option>
+                            <option value="">Gandhi Nagar</option>
+                            <option value="">Assembly</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </center>
+    <br>
+    <center>
+        <fieldset style="width: 800px; border-radius: 10px; border: 2px solid black;">
+            <legend style="width: 250px; border-radius: 5px; background-color: blue; color: white; padding: 5px;">Mode of Payment & Pass Collection</legend>
+            <table cellpadding="2" cellspacing="10" width="800">
+                <tr>
+                    <td>
+                        <label for="">Payment Mode</label>
+                        <select name="" id="">
+                            <option value="" disabled selected>---select---</option>
+                            <option value="">Online</option>
+                            <option value="">Cash</option>
+                            <option value="">Cards</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Pass Delivery Mode</label>
+                        <select name="" id="">
+                            <option value="" disabled selected>---select---</option>
+                            <option value="">Post</option>
+                            <option value="">Online Copy</option>
+                            <option value="">Online delivary</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Center at which you want to Collect Pass</label>
+                        <select name="" id="">
+                            <option value="" disabled selected>---select---</option>
+                            <option value="">Koti</option>
+                            <option value="">Mehdipatanam Depo</option>
+                            <option value="">Sultam Bazar</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </center>
+</body>
+</html>
